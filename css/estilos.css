@@ -1,0 +1,70 @@
+*{
+	box-sizing: border-box;
+}
+.lateral{
+/*con esto hago que quede fija cuando hagamos scroll el menu izquierdo*/
+	background-color: #56B3AB;
+	position: fixed;
+	top: 0;
+	padding: 1em;
+	bottom: 0;
+	left: 0;
+	width: 350px;
+}
+
+/* Perfil__circulo */
+
+.perfil__circulo{
+	border-radius: 50%;
+	width: 80px;
+	margin: 0;
+	overflow: hidden;
+	height: 80px;
+
+}
+
+.perfil__foto{
+	width: 100%;
+}
+
+.perfil__nombres{
+	color: white;
+	font-size: 20px;
+	margin: 0.5em;
+	width: 250px;
+}
+
+.perfil__nombres, .perfil__circulo{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+/* Informacion */
+
+
+.informacion{
+	color: #0F6A62;
+	position: absolute;
+	bottom: 0;
+}
+
+.informacion__titulo{
+	font-size: 18px;
+
+}
+
+/*Habilidad*/
+.habilidades{
+
+	padding: 0;
+}
+
+.habilidad{
+	background-color: #0F6A62;
+	color: white;
+	font-size: 12px;
+	display: inline-block;
+	padding: .5em;
+	text-transform: uppercase;
+}
